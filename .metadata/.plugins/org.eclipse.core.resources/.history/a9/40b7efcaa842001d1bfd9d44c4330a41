@@ -1,0 +1,33 @@
+
+public class SaídaDeDadosExercicios {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String product1 = "Computer";
+		String product2 = "Office Desk";
+		
+		int age = 30;
+		int code = 3290;
+		char gender = 'F';
+		
+		double price1 = 2100.0;
+		double price2 = 650.50;
+		double measure = 53.234567;
+			
+		
+		System.out.println("Porducts: ");
+		System.out.printf("%s, wich prince is $%.2f %n", product1, price1);
+		System.out.printf("%s, wich prince is $%.2f %n", product2, price2);
+		
+		System.out.println("Recorde: "+age+" years old, code "+code+" and gender: "+gender);
+		
+		System.out.println("Meause with eight decimal places: "+measure);
+		System.out.printf("Rounded (three decimal places): %.3f %n",measure);
+		//System.out.println("US decimal point: %.3f %n", measure);
+		
+		
+
+	}
+
+}

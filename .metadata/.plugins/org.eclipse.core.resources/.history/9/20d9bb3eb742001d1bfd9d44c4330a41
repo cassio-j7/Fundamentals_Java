@@ -1,0 +1,46 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class EntradaDeDados {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner (System.in);
+		
+		/*
+		String x;
+		x = sc.next();
+		System.out.println("Voce digitou: "+x);
+		*/
+		
+		/*
+		int x;
+		
+		x = sc.nextInt();
+		System.out.println("Voce digitou: "+x);
+		*/
+		
+		/*
+		double x, y;
+		x = sc.nextDouble();
+		y = sc.nextDouble();
+		System.out.println("Voce digitou: "+x);
+		System.out.printf("Voce digitou: %.2f ",y);
+		
+		sc.close();
+		*/
+		//Para imprimir com (.) devemos chamar afunção Locale
+		
+		Locale
+		double x, y;
+		x = sc.nextDouble();
+		y = sc.nextDouble();
+		System.out.println("Voce digitou: "+x);
+		System.out.printf("Voce digitou: %.2f ",y);
+		
+		sc.close();
+	}
+
+}

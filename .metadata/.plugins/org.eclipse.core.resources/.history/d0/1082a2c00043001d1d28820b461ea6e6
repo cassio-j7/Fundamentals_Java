@@ -1,0 +1,56 @@
+import java.Scanner;
+public class FuncoesMatematica {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double x = 3.0;
+		double y = 4.0;
+		double z = - 5.0;
+		double A, B, C;
+		
+		java.util.Scanner sc = new Scanner (System.in);
+		
+		
+		/*
+		A = Math.sqrt(x);
+		B = Math.sqrt(y);
+		C = Math.sqrt(25.0);
+		
+		System.out.println("A raiz quadrada de "+x+" e "+A+".");
+		System.out.println("A raiz quadrada de "+y+" e "+B+".");
+		System.out.println("A raiz quadrada de 25 e: "+C);
+		
+		A = Math.pow(x, y);
+		B = Math.pow(x,2.0);
+		C = Math.pow(5.0, 2.0);
+		
+		System.out.println(x +" elevado a "+y+" é igual a "+A);
+		System.out.println(x+" elevado a 2 e igual a "+B+".");
+		System.out.println(" 5 elevado ao quadrado e igual a "+C);
+		
+		A = Math.abs(y);
+		B = Math.abs(z);
+		
+		System.out.println("Valor absoluto de "+y+" é igual a "+A);
+		System.out.println("Valor absolto de "+z+" e igual a "+B);
+		*/
+		
+		int a = 2;
+		int b = 3;
+		int c = 4;
+		int delta;
+		
+		a = sc.nextInt();
+		b = sc.nextInt();
+		c = sc.nextInt();
+		
+		
+		delta =  Math.pow(b, 2) - 4*a*b;
+		
+		System.out.println(delta);
+		
+		
+	}
+
+}

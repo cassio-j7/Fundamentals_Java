@@ -1,0 +1,46 @@
+/*****************************************************************
+ * Faça um programa que leia N números reais e armazene-os em um 
+ * vetor. Em seguida:
+ *	- Imprimir todos os elementos do vetor;
+ *	- Mostrar na tela a soma e a média dos elementos do vetor;
+ ****************************************************************/
+package exercicio2;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Quantos numeros deseja analisar?");
+		int n = sc.nextInt();
+		
+		double[] numeros = new double[n];
+		
+		for(int i = 0; i < n; i++) {
+			numeros[i] = sc.nextDouble();
+		}
+		
+		System.out.print("Valores: ");
+		for(int i = 0; i < n; i++) {
+			System.out.print(numeros[i]+" ");
+		}
+		
+		double soma = 0.0;
+		for(int i = 0; i < n; i++) {
+			soma += numeros[i];
+		}
+		System.out.println("Soma: "+soma);
+		
+		double media = soma / n;
+		System.out.println("Media: "+ media);
+		
+
+	}
+
+}

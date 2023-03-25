@@ -1,0 +1,31 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		Fazer um programa para ler o nome (apenas uma palvra) e idade de duas pessoas. 
+		Ao final, mostrar uma mensagem com os nomes e a idade entre essas pessoas, com 
+		uma casa decimal.
+		*/
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		String nome1 = sc.next();
+	    int  idade1 = sc.nextInt();
+	    String nome2 = sc.next();
+	    int idade2 = sc.nextInt();
+	    
+	    double media = (double)(idade1 + idade2) / 2;
+	    
+	    System.out.printf("A idade média de %s e %s %.1f %n", nome1, nome2, media);
+	
+		sc.close();
+		
+	}
+
+}

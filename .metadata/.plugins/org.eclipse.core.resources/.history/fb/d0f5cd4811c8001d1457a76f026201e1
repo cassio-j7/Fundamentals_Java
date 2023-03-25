@@ -1,0 +1,34 @@
+package entities;
+
+public abstract class Contributor {
+	
+	private String name;
+	protected Double annualIncome;
+
+	public Contributor() {}
+
+	public Contributor(String name, Double annualncome) {
+		this.name = name;
+		this.annualIncome = annualncome;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Double getAnnualncome() {
+		return annualIncome;
+	}
+
+	public void setAnnualncome(Double annualncome) {
+		this.annualIncome = annualncome;
+	}
+	
+	public abstract double tax();
+
+	
+}

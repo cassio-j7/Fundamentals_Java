@@ -1,0 +1,14 @@
+package idiomasistema;
+
+import java.util.language;
+
+public class IdiomaSistema {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Language lingua = new Language();
+		
+	}
+
+}

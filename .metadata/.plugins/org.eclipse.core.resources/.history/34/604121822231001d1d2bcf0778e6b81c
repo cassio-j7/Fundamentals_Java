@@ -1,0 +1,31 @@
+package primeiroprograma;
+	//pacote sempre se nomeia com letra minúscula
+
+public class PrimeiroPrograma {
+	//clases começãm com a primeira letra em maiúsculo. CamelCase
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Olá, Mundo!");
+		 
+	}
+
+}
+
+//CamelCase
+
+// XxxxxOoooo -> Classe ou interface
+
+//aaaCcccc -> Atributo
+
+//ou
+
+//bbbNnnn -> Variável
+
+//ou
+
+//oooHhhhh -> Método
+
+// cccccc -> nome do pacote
+
+// CCCCC -> constante

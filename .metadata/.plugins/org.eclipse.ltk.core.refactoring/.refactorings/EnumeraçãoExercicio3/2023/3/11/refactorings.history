@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;antitites.Coments&apos; to &apos;Coment&apos;&#x0D;&#x0A;- Original project: &apos;EnumeraçãoExercicio3&apos;&#x0D;&#x0A;- Original element: &apos;antitites.Coments&apos;&#x0D;&#x0A;- Renamed element: &apos;antitites.Coment&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Coments&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;antitites{Coments.java[Coments" matchStrategy="1" name="Coment" qualified="false" references="true" similarDeclarations="false" stamp="1678960128109" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+package tiposprimitivos;
+
+public class TiposPrimitivos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		float nota = 8.5f;
+		System.out.print("A nota é "+nota);
+		System.out.println("Anota é "+nota);
+	}
+
+}

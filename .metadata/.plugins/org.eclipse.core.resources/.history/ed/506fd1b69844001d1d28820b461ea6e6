@@ -1,0 +1,41 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ExercicioCondicional1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+	/*	
+		Fazer um programa para ler duas notas que um aluno obteve no primeiro e segundo
+		semestre de uma disciplina anual. Em seguida, mostar a nota final que o aluno 
+		obteve no ano juntamente com o texto explicativo. Caso a nota final seja inferior
+		a 60.00, mostar a mensagem "REPROVADO", conforme exemplos. Todos os valores devem 
+		ter uma casa decimal.
+	*/
+	
+		double nota1, nota2, media;
+		
+		System.out.println("Infomre a primera nota: ");
+		nota1 = sc.nextDouble();
+		
+		System.out.println("Informe a segunda nota: ");
+		nota2 = sc.nextDouble();
+		
+		media = nota1 + nota2;
+		
+		if (media < 60.00) {
+			System.out.printf("Nota final: %.1f %n", media);
+			System.out.println("REPROVADO");
+		}
+		
+		
+		
+		
+		sc.close();
+		
+	}
+
+}

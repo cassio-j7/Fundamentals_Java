@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner sc = new Scanner (System.in);
+        
+        double altura, base, area, perim, diag;
+        
+        System.out.println("Infome o valor de altura: ");
+        altura = sc.nextDouble();
+        
+        System.out.println("Informe o valor de base: ");
+        base = sc.nextDouble();
+        
+        area = altura * base;
+        perim = 2.0 * (altura + base);
+        diag = Math.sqrt(Math.pow(altura, 2.0) + Math.pow(base, 2.0));
+        
+        System.out.println(" A área equivale a "+area);
+        System.out.println("O perímetro equivale a "+perim);
+        System.out.println("A diagonal equivale a "+diag);
+        
+        sc.close();
+        
+		
+	}
+
+}
