@@ -51,7 +51,14 @@ public class Student {
 		return grade1 + grade2 + grade3;
 	}
 	
-	
+	public String toString() {
+		if(finalGrade() > 60) {
+		 return name + " " + 
+			    String.format("%.2f", finalGrade());
+		}
+		return null;
+		
+	}
 
 	
 	
