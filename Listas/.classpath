@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Exercico1 - ArrayList"/>
+	<classpathentry kind="src" path="Exercicio2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

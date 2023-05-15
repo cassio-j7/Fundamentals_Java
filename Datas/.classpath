@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="InsanciaçãoDatas"/>
+	<classpathentry kind="src" path="Formatação"/>
+	<classpathentry kind="src" path="Converções"/>
+	<classpathentry kind="src" path="Calculos"/>
+	<classpathentry kind="src" path="Class Date"/>
+	<classpathentry kind="src" path="Calendar"/>
+	<classpathentry kind="src" path="Exercicio1"/>
+	<classpathentry kind="src" path="Exercicio2"/>
+	<classpathentry kind="src" path="Exercicio3"/>
+	<classpathentry kind="src" path="Exercicio4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
